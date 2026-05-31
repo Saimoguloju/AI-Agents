@@ -16,14 +16,27 @@ A structured learning and experimentation space for building modern AI agents. E
 AI Agents/
 │
 ├── Basics/
-│   └── intro.ipynb          # What are AI agents, how they work, future outlook
+│   └── intro.ipynb              # What are AI agents, how they work, future outlook
 │
-├── requirements.txt         # Python dependencies
+├── LangGraph/
+│   └── langgraph.ipynb          # Stateful graph orchestration (LangChain stack)
+├── CrewAI/
+│   └── crewai.ipynb             # Role-playing multi-agent teams
+├── AutoGen/
+│   └── autogen.ipynb            # Conversational multi-agent systems (Microsoft)
+├── PydanticAI/
+│   └── pydantic_ai.ipynb        # Type-safe, structured-output agents
+├── ClaudeAgentSDK/
+│   └── claude_agent_sdk.ipynb   # "Give Claude a computer" (Anthropic)
+├── OpenAIAgentsSDK/
+│   └── openai_agents_sdk.ipynb  # Lightweight handoffs + guardrails (OpenAI)
+│
+├── requirements.txt             # Python dependencies
 ├── .gitignore
 └── README.md
 ```
 
-> More modules (Tools, Memory, Planning, Multi-Agent) will be added progressively.
+> More conceptual modules (Tools, Memory, Planning) will be added progressively.
 
 ---
 
@@ -32,10 +45,14 @@ AI Agents/
 | Module | Notebook | Description |
 |---|---|---|
 | **Basics** | `intro.ipynb` | AI agents overview, architecture, types, future |
-| **Tools** | *(coming soon)* | Connecting agents to web search, APIs, code execution |
-| **Memory** | *(coming soon)* | Short-term context, long-term vector stores, RAG |
-| **Planning** | *(coming soon)* | ReAct, Plan-Execute, Tree of Thoughts |
-| **Multi-Agent** | *(coming soon)* | Orchestrator + specialist agent patterns |
+| **LangGraph** | `langgraph.ipynb` | Graph-based, durable, stateful agent orchestration |
+| **CrewAI** | `crewai.ipynb` | Role/goal/backstory multi-agent teams (Crews & Flows) |
+| **AutoGen** | `autogen.ipynb` | Async, actor-model conversational agents → MS Agent Framework |
+| **Pydantic AI** | `pydantic_ai.ipynb` | Type safety + guaranteed structured output |
+| **Claude Agent SDK** | `claude_agent_sdk.ipynb` | Model-native agent loop, tools, context management |
+| **OpenAI Agents SDK** | `openai_agents_sdk.ipynb` | Four primitives: agents, tools, handoffs, guardrails |
+
+> Each framework notebook follows the same structure: **what it is → how it works → architecture → conceptual code → how it's advanced vs other frameworks → when to use it**, with sourced links to current (2026) documentation.
 
 ---
 
