@@ -2,6 +2,8 @@
 
 > Hands-on exploration of autonomous AI agent systems — from fundamentals to multi-agent architectures.
 
+**Repository:** [github.com/Saimoguloju/AI-Agents](https://github.com/Saimoguloju/AI-Agents)
+
 ---
 
 ## What This Repository Is
@@ -77,8 +79,8 @@ AI Agents/
 
 ```bash
 # Clone the repo
-git clone <repo-url>
-cd "AI Agents"
+git clone https://github.com/Saimoguloju/AI-Agents.git
+cd AI-Agents
 
 # Create and activate virtual environment
 python -m venv .venv
