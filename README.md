@@ -20,6 +20,7 @@ AI Agents/
 ├── Basics/
 │   └── intro.ipynb              # What are AI agents, how they work, future outlook
 │
+│   ── Core frameworks ──
 ├── LangGraph/
 │   └── langgraph.ipynb          # Stateful graph orchestration (LangChain stack)
 ├── CrewAI/
@@ -32,6 +33,26 @@ AI Agents/
 │   └── claude_agent_sdk.ipynb   # "Give Claude a computer" (Anthropic)
 ├── OpenAIAgentsSDK/
 │   └── openai_agents_sdk.ipynb  # Lightweight handoffs + guardrails (OpenAI)
+│
+│   ── More frameworks ──
+├── GoogleADK/
+│   └── google_adk.ipynb         # Code-first, multi-language agents (Google/Gemini)
+├── SemanticKernel/
+│   └── semantic_kernel.ipynb    # Plugins + planners for .NET/enterprise (Microsoft)
+├── LlamaIndex/
+│   └── llamaindex.ipynb         # Agentic RAG & document agents
+├── Smolagents/
+│   └── smolagents.ipynb         # Minimal "agents that think in code" (Hugging Face)
+├── MetaGPT/
+│   └── metagpt.ipynb            # SOP-driven AI software company
+├── OpenAgents/
+│   └── openagents.ipynb         # Persistent agent networks (MCP + A2A)
+├── VercelAISDK/
+│   └── vercel_ai_sdk.ipynb      # TypeScript AI for the web (Vercel)
+├── Mastra/
+│   └── mastra.ipynb             # Full TypeScript agent stack
+├── Mirascope/
+│   └── mirascope.ipynb          # The LLM "anti-framework" (Goldilocks API)
 │
 ├── requirements.txt             # Python dependencies
 ├── .gitignore
@@ -53,6 +74,15 @@ AI Agents/
 | **Pydantic AI** | `pydantic_ai.ipynb` | Type safety + guaranteed structured output |
 | **Claude Agent SDK** | `claude_agent_sdk.ipynb` | Model-native agent loop, tools, context management |
 | **OpenAI Agents SDK** | `openai_agents_sdk.ipynb` | Four primitives: agents, tools, handoffs, guardrails |
+| **Google ADK** | `google_adk.ipynb` | Code-first, multi-language (Py/TS/Go/Java), Gemini-optimized |
+| **Semantic Kernel** | `semantic_kernel.ipynb` | Plugins + planners + memory; .NET/Azure enterprise |
+| **LlamaIndex** | `llamaindex.ipynb` | Agentic RAG, advanced retrieval, document agents |
+| **smolagents** | `smolagents.ipynb` | Minimalist agents that act by writing code (Hugging Face) |
+| **MetaGPT** | `metagpt.ipynb` | `Code = SOP(Team)` — simulated software company |
+| **OpenAgents** | `openagents.ipynb` | Persistent agent networks; native MCP + A2A |
+| **Vercel AI SDK** | `vercel_ai_sdk.ipynb` | TypeScript-first AI for Next.js/web; unified providers |
+| **Mastra** | `mastra.ipynb` | Full TypeScript agent stack (workflows, RAG, memory, evals) |
+| **Mirascope** | `mirascope.ipynb` | "Anti-framework" — raw-API control with framework ergonomics |
 
 > Each framework notebook follows the same structure: **what it is → how it works → architecture → conceptual code → how it's advanced vs other frameworks → when to use it**, with sourced links to current (2026) documentation.
 
