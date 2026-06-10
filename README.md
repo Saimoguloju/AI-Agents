@@ -131,6 +131,41 @@ Open any `.ipynb` file from the browser interface.
 
 ---
 
+## Sample Agents
+
+Each framework folder also contains a **runnable sample agent** that demonstrates
+that framework's signature pattern. These are **conceptual and self-contained**:
+they use a tiny built-in mock LLM, so they run with **no API key and no framework
+install** — handy for seeing the core idea before wiring up the real SDK.
+
+```bash
+# Python samples (no dependencies beyond the standard library)
+python Basics/sample_agent.py            # raw ReAct loop (Reason -> Act -> Observe)
+python LangGraph/sample_agent.py         # stateful graph + conditional routing
+python CrewAI/sample_agent.py            # role/goal/backstory crew, sequential
+python AutoGen/sample_agent.py           # round-robin conversational team
+python PydanticAI/sample_agent.py        # typed output + validation self-correction
+python ClaudeAgentSDK/sample_agent.py    # SDK-managed tool-use loop
+python OpenAIAgentsSDK/sample_agent.py   # triage agent: tools, handoffs, guardrails
+python GoogleADK/sample_agent.py         # LLM agents + sequential workflow agent
+python SemanticKernel/sample_agent.py    # kernel + plugins + planner
+python LlamaIndex/sample_agent.py        # agentic RAG (decide WHEN to retrieve)
+python Smolagents/sample_agent.py        # CodeAgent that acts by writing code
+python MetaGPT/sample_agent.py           # SOP role pipeline (Code = SOP(Team))
+python OpenAgents/sample_agent.py        # persistent network: MCP tools + A2A handoff
+python Mirascope/sample_agent.py         # decorated function IS the LLM call
+
+# TypeScript samples (TS-only frameworks) — run with tsx
+npx tsx VercelAISDK/sample_agent.ts      # unified provider + tool-calling loop
+npx tsx Mastra/sample_agent.ts           # agent + tools + persistent memory
+```
+
+> Each sample ends with a commented **"Real version"** block showing the
+> equivalent code using the actual framework (with the `pip install` / `npm install`
+> and API-key requirements).
+
+---
+
 ## Dependencies
 
 | Package | Purpose |
